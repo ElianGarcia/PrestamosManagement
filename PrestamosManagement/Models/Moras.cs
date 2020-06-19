@@ -33,5 +33,13 @@ namespace PrestamosApp.Models
             Total = 0;
             MorasDetalle = new List<MorasDetalle>();
         }
+
+        public Moras(int iD, DateTime fecha, decimal total, List<MorasDetalle> morasDetalle)
+        {
+            ID = iD;
+            Fecha = fecha;
+            Total = total;
+            MorasDetalle = morasDetalle;
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PrestamosApp.BLL;
+using PrestamosApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,43 +13,49 @@ namespace PrestamosApp.BLL.Tests
         [TestMethod()]
         public void GuardarTest()
         {
-            Assert.Fail();
-        }
+            MorasDetalle m = new MorasDetalle
+            {
+                ID = 0,
+                MoraID = 0,
+                PrestamoID = 1,
+                Valor = 10
+            };
+            List<MorasDetalle> lista = new List<MorasDetalle>();
+            lista.Add(m);
+            Moras mora = new Moras(0, DateTime.Now,  10, lista);
 
-        [TestMethod()]
-        public void ModificarTest()
-        {
-            Assert.Fail();
+            Assert.IsTrue(MorasBLL.Guardar(mora));
         }
 
         [TestMethod()]
         public void EliminarTest()
         {
-            Assert.Fail();
+            bool paso;
+            paso = MorasBLL.Eliminar(1);
+            Assert.IsTrue(paso);
         }
 
         [TestMethod()]
         public void BuscarTest()
         {
-            Assert.Fail();
+            Moras mora;
+            mora = MorasBLL.Buscar(1);
+            Assert.IsNotNull(mora);
         }
 
         [TestMethod()]
         public void GetListTest()
         {
-            Assert.Fail();
+            var lista = new List<Moras>();
+            lista = MorasBLL.GetList(p => true);
+            Assert.IsNotNull(lista);
         }
 
         [TestMethod()]
         public void ExisteTest()
         {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void GetMoraTest()
-        {
-            Assert.Fail();
+            bool paso = MorasBLL.Existe(1);
+            Assert.AreEqual(paso, true);
         }
     }
 }
