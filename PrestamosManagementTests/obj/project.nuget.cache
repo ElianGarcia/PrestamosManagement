@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3E9W8N7cQ1Bw61gUT6kxR5XpS0wI9sczZ0o/w6HguaGfY2A120kqG8FvlQaLLEhiqhOJeefWtoLmi3WLYR72sA==",
+  "dgSpecHash": "HQvQwp1RCCQQzslKQoGid7RcBG3UGXY6+b/4/yJOyz5aqcxYAxGuiqwgpurO27NgAUHkHtiDv9EM05AR5jdJhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Elian\\source\\repos\\PrestamosManagementTests\\PrestamosManagementTests.csproj",
+  "projectFilePath": "C:\\Users\\Elian\\source\\repos\\PrestamosManagement\\PrestamosManagementTests\\PrestamosManagementTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elian\\.nuget\\packages\\blazored.toast\\3.1.2\\blazored.toast.3.1.2.nupkg.sha512",
     "C:\\Users\\Elian\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

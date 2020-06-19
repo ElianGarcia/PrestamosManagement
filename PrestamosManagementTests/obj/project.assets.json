@@ -6970,11 +6970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elian\\source\\repos\\PrestamosManagementTests\\PrestamosManagementTests.csproj",
+      "projectUniqueName": "C:\\Users\\Elian\\source\\repos\\PrestamosManagement\\PrestamosManagementTests\\PrestamosManagementTests.csproj",
       "projectName": "PrestamosManagementTests",
-      "projectPath": "C:\\Users\\Elian\\source\\repos\\PrestamosManagementTests\\PrestamosManagementTests.csproj",
+      "projectPath": "C:\\Users\\Elian\\source\\repos\\PrestamosManagement\\PrestamosManagementTests\\PrestamosManagementTests.csproj",
       "packagesPath": "C:\\Users\\Elian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elian\\source\\repos\\PrestamosManagementTests\\obj\\",
+      "outputPath": "C:\\Users\\Elian\\source\\repos\\PrestamosManagement\\PrestamosManagementTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Elian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6990,8 +6990,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Elian\\source\\repos\\PrestamosManagement\\PrestamosManagement.csproj": {
-              "projectPath": "C:\\Users\\Elian\\source\\repos\\PrestamosManagement\\PrestamosManagement.csproj"
+            "C:\\Users\\Elian\\source\\repos\\PrestamosManagement\\PrestamosManagement\\PrestamosManagement.csproj": {
+              "projectPath": "C:\\Users\\Elian\\source\\repos\\PrestamosManagement\\PrestamosManagement\\PrestamosManagement.csproj"
             }
           }
         }
