@@ -16,7 +16,7 @@ namespace PrestamosApp.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlite(@"Data Source=Data\PrestamosDB.db");
+            optionsBuilder.UseSqlite(@"Data Source=c:\Databases\PrestamosDB.db");
         }
 
         protected override void OnModelCreating(ModelBuilder model)

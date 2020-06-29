@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Blazored.Toast" Path="C:\Users\Elian\.nuget\packages\blazored.toast\3.1.2\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/PrestamosManagement" Path="C:\Users\Elian\source\repos\PrestamosManagement\PrestamosManagement\wwwroot\" />
+</StaticWebAssets>

@@ -26,16 +26,7 @@ namespace PrestamosApp.BLL
 
             try
             {
-                foreach (var item in mora.MorasDetalle)
-                {
-                    var prestamo = contexto.Prestamos.Find(item.PrestamoID);
-                    if(prestamo != null)
-                    {
-                        prestamo.Balance += item.Valor;
-                        contexto.Personas.Find(prestamo.PersonaID).Balance += item.Valor;
-                    }
-                }
-
+                //Agregar la entidad que se desea insertar al contexto
                 contexto.Moras.Add(mora);
                 paso = contexto.SaveChanges() > 0;
             }

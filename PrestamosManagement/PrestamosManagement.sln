@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrestamosManagement", "Pres
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrestamosManagementTests", "..\PrestamosManagementTests\PrestamosManagementTests.csproj", "{D0003258-6B1F-4CC9-BA74-77FA28DC009A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "..\Api\Api.csproj", "{A2274CB7-025B-4BE2-BADF-14FF20D79111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D0003258-6B1F-4CC9-BA74-77FA28DC009A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0003258-6B1F-4CC9-BA74-77FA28DC009A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0003258-6B1F-4CC9-BA74-77FA28DC009A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2274CB7-025B-4BE2-BADF-14FF20D79111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2274CB7-025B-4BE2-BADF-14FF20D79111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2274CB7-025B-4BE2-BADF-14FF20D79111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2274CB7-025B-4BE2-BADF-14FF20D79111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
